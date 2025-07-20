@@ -71,6 +71,13 @@
   transform: scale(1.4);
   left: 28%;
 }
+.i-right > :nth-child(3) {
+  transform: scale(1.4);
+  left: 28%;
+  max-width: 300px; /* Adjust as needed */
+  height: auto;
+}
+
 .i-right > :nth-child(1) {
   transform: scale(1.4);
   left: 28%;

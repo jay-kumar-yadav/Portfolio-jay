@@ -11,6 +11,8 @@ import Instagram from "../../img/instagram.png";
 import { themeContext } from "../../Context";
 import { motion } from "framer-motion";
 import { Link } from "react-scroll";
+import Vector1 from "../../img/Vector1.png";
+import Vector2 from "../../img/Vector2.png";
 const Intro = () => {
   // Transition
   const transition = { duration: 2, type: "spring" };
@@ -63,8 +65,8 @@ const Intro = () => {
       </div>
       {/* right image side */}
       <div className="i-right">
-        {/* <img src={Vector1} alt="" />
-        <img src={Vector2} alt="" /> */}
+        <img src={Vector1} alt="" />
+        <img src={Vector2} alt="" />
         <img src={boy} alt="" />
         {/* animation */}
         <motion.img
