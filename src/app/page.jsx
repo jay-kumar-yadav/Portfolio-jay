@@ -1,6 +1,7 @@
 "use client";
 
 import Image from "next/image";
+import Link from "next/link";
 import { motion } from "framer-motion";
 
 const Homepage = () => {
@@ -31,12 +32,18 @@ const Homepage = () => {
           </p>
           {/* BUTTONS */}
           <div className="w-full flex gap-4">
-            <button className="p-4 rounded-lg ring-1 ring-black bg-black text-white">
-              View  My Work
-            </button>
-            <button className="p-4 rounded-lg ring-1 ring-black">
+            <Link
+              href="/portfolio"
+              className="p-4 rounded-lg ring-1 ring-black bg-black text-white hover:bg-white hover:text-black transition-colors"
+            >
+              View My Work
+            </Link>
+            <Link
+              href="/contact"
+              className="p-4 rounded-lg ring-1 ring-black hover:bg-black hover:text-white transition-colors"
+            >
               Contact Me
-            </button>
+            </Link>
           </div>
         </div>
       </div>
