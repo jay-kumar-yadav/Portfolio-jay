@@ -53,15 +53,15 @@ const PortfolioPage = () => {
       transition={{ duration: 1 }}
     >
       <div className="h-[600vh] relative" ref={ref}>
-        <div className="w-screen h-[calc(100vh-6rem)] flex items-center justify-center text-8xl text-center">
+        <div className="w-screen h-[calc(100vh-7rem)] flex items-center justify-center text-8xl text-center">
           My Works
         </div>
-        <div className="sticky top-0 flex h-[calc(100vh-6rem)] gap-4 items-center overflow-hidden">
+        <div className="sticky top-0 flex h-[calc(100vh-7rem)] gap-4 items-center overflow-hidden">
           <motion.div style={{ x }} className="flex">
-            <div className="h-[calc(100vh-6rem)] min-h-[calc(100vh-6rem)] w-screen flex items-center justify-center bg-gradient-to-r from-purple-300 to-red-300" />
+            <div className="h-[calc(100vh-7rem)] min-h-[calc(100vh-7rem)] w-screen flex items-center justify-center bg-gradient-to-r from-purple-300 to-red-300" />
             {items.map((item) => (
               <div
-                className={`h-[calc(100vh-6rem)] min-h-[calc(100vh-6rem)] w-screen flex items-center justify-center bg-gradient-to-r ${item.color} px-4 sm:px-6 md:px-8 overflow-y-auto`}
+                className={`h-[calc(100vh-7rem)] min-h-[calc(100vh-7rem)] w-screen flex items-center justify-center bg-gradient-to-r ${item.color} px-4 sm:px-6 md:px-8 overflow-y-auto`}
                 key={item.id}
               >
                 <div className="flex flex-col gap-4 sm:gap-5 md:gap-6 py-6 sm:py-8 text-white max-w-[600px]">

@@ -9,7 +9,7 @@ const ContactPage = () => {
   const whatsappUrl = `https://wa.me/${WHATSAPP_NUMBER}?text=${encodeURIComponent(DEFAULT_MESSAGE)}`;
 
   const titleText = "Let's Connect";
-  const subtitleText = "Reach out on WhatsApp—I'd love to hear from you!";
+  const subtitleText = "Reach out on WhatsApp-I'd love to hear from you!";
 
   return (
     <motion.div
